@@ -16,6 +16,12 @@
   </nodes>
   <notes />
   <edges>
+    <edge source="AbstractFactoryTest" target="abstractfactory.impl.AlibabaCourseFactory">
+      <point x="34.60000000000002" y="-27.0" />
+      <point x="564.4684210526316" y="398.0" />
+      <point x="839.9710526315789" y="398.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
     <edge source="AbstractFactoryTest" target="product.IJavaCourse">
       <point x="-69.19999999999999" y="-27.0" />
       <point x="460.66842105263163" y="408.0" />
@@ -23,12 +29,6 @@
       <point x="0.0" y="104.0" />
       <point x="264.00000000000006" y="104.0" />
       <point x="-55.0" y="27.0" />
-    </edge>
-    <edge source="AbstractFactoryTest" target="abstractfactory.impl.AlibabaCourseFactory">
-      <point x="34.60000000000002" y="-27.0" />
-      <point x="564.4684210526316" y="398.0" />
-      <point x="839.9710526315789" y="398.0" />
-      <point x="0.0" y="38.5" />
     </edge>
     <edge source="abstractfactory.impl.AlibabaCourseFactory" target="product.impl.AlibabaJavaCourse">
       <point x="-55.599999999999994" y="-38.5" />
@@ -153,7 +153,7 @@
       <point x="-33.0" y="27.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="403.5" y="260.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="404.0" y="260.0" />
   <SelectedNodes>
     <node>AbstractFactoryTest</node>
   </SelectedNodes>
