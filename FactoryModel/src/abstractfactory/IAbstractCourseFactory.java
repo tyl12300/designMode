@@ -1,7 +1,5 @@
 package abstractfactory;
 
-import brand.IAalibaba;
-import brand.IGoogle;
 import product.IJavaCourse;
 import product.IPythonCourse;
 
