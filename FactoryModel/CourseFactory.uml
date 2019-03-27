@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>simplefactorypattern.CourseFactory</OriginalElement>
+  <nodes>
+    <node x="-23.99999999999997" y="-57.0">simplefactory.course.ICourse</node>
+    <node x="-274.0" y="47.0">simplefactory.CourseFactory</node>
+    <node x="128.0" y="47.0">simplefactory.course.impl.PythonCourse</node>
+    <node x="-44.5" y="151.0">SimpleFactoryTest</node>
+    <node x="-23.99999999999997" y="47.0">simplefactory.course.impl.JavaCourse</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="SimpleFactoryTest" target="simplefactory.course.impl.PythonCourse">
+      <point x="34.60000000000002" y="-27.0" />
+      <point x="76.60000000000002" y="121.0" />
+      <point x="194.0" y="121.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="simplefactory.course.impl.PythonCourse" target="simplefactory.course.ICourse">
+      <point x="0.0" y="-27.0" />
+      <point x="194.0" y="27.0" />
+      <point x="68.39999999999998" y="27.0" />
+      <point x="26.399999999999977" y="27.0" />
+    </edge>
+    <edge source="SimpleFactoryTest" target="simplefactory.CourseFactory">
+      <point x="-69.19999999999999" y="-27.0" />
+      <point x="-27.19999999999999" y="131.0" />
+      <point x="-216.5" y="131.0" />
+      <point x="-57.5" y="27.0" />
+    </edge>
+    <edge source="simplefactory.course.impl.JavaCourse" target="simplefactory.course.ICourse">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="SimpleFactoryTest" target="simplefactory.course.impl.JavaCourse">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="SimpleFactoryTest" target="simplefactory.course.ICourse">
+      <point x="69.19999999999999" y="-27.0" />
+      <point x="111.19999999999999" y="131.0" />
+      <point x="270.5" y="131.0" />
+      <point x="270.5" y="17.0" />
+      <point x="94.80000000000007" y="17.0" />
+      <point x="52.80000000000001" y="27.0" />
+    </edge>
+    <edge source="simplefactory.CourseFactory" target="simplefactory.course.ICourse">
+      <point x="-57.5" y="-27.0" />
+      <point x="-216.5" y="17.0" />
+      <point x="-10.799999999999955" y="17.0" />
+      <point x="-52.80000000000001" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="65.5" y="95.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
