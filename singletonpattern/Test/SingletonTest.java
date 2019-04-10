@@ -30,9 +30,13 @@ public class SingletonTest {
 //        }
         LazyInnerClassSingleton lazyInnerClassSingleton=null;
         LazyInnerClassSingleton lazyInnerClassSingleton1=LazyInnerClassSingleton.getInstance();
+        //输出流
         FileOutputStream fos = null;
+        //对象 输出流
         ObjectOutputStream oos=null;
+        //输入流
         FileInputStream fis=null;
+        //对象 输入流
         ObjectInputStream ois=null;
         try {
             fos = new FileOutputStream("LazyInnerClassSingleton.obj");
