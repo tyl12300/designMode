@@ -1,4 +1,4 @@
-package lazysingleton;
+package lazy;
 
 
 import java.io.Serializable;

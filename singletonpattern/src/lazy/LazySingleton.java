@@ -1,4 +1,4 @@
-package lazysingleton;
+package lazy;
 
 /**
  * designMode
@@ -7,7 +7,7 @@ package lazysingleton;
  * @Date 2019-04-01
  */
 public class LazySingleton {
-    private LazySingleton(){};
+    private LazySingleton(){}
 
     private static LazySingleton lazySingleton;
 
